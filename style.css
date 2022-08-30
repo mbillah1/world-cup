@@ -15,8 +15,6 @@
 
 a {
   text-decoration: none;
-  color: var(--c-dark);
-  transition: var(--transition);
 }
 
 a:hover {
@@ -33,11 +31,12 @@ body {
 
 .container {
   width: 1320px;
-  margin: auto;
+  margin: 100px auto;
 }
 
 .btn {
   background-color: var(--btn);
+  color: #ffffff;
   padding: 15px 25px;
   font-size: 20px;
   line-height: 23px;
@@ -56,7 +55,6 @@ body {
   border-radius: 30px;
   padding: 0px 100px;
   color: #ffffff;
-  margin: 100px 0px 0px 0px;
 }
 
 .banner-content {
@@ -73,4 +71,27 @@ body {
   line-height: 26px;
   padding-right: 10%;
   margin: 20px 0px;
+}
+
+/* Main Content Area  */
+.main-content {
+  display: flex;
+}
+
+.main-content aside {
+  background-color: var(--dark-bg);
+  padding: 35px;
+  width: 312px;
+  border-radius: 18px;
+}
+
+.main-content aside a {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.main-content aside .btn-normal {
+  color: var(--dark-bg);
+  background: #ffffff !important;
 }

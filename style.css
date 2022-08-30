@@ -157,3 +157,32 @@ body {
   height: 24px;
   margin-right: 8px;
 }
+
+/* Footer Area  */
+
+footer {
+  background-color: var(--dark-bg);
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+footer img {
+  width: 95px;
+  padding: 20px 0px;
+}
+
+footer hr {
+  background-color: #ffffff;
+  opacity: 10%;
+}
+
+footer .footer-nav {
+  margin: 20px 0px;
+}
+
+footer .footer-nav a {
+  padding: 10px;
+  display: inline-block;
+  color: #b9b9b9;
+}

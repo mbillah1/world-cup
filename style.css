@@ -1,0 +1,37 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Variables */
+:root {
+  --dark-bg: #161616;
+  --btn: #dd0000;
+}
+
+/* Reset and Helpers Class */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-dark);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--c-brand);
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 1320px;
+  margin: auto;
+}
